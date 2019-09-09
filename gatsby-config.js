@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `👑SP->`,
+    title: `👑SP↠`,
     author: `Peramanathan Sathyamoorthy`,
     description: `Peronal blog by Peramanathan.`,
     siteUrl: `https://kingsparrow.io`,
