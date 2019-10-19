@@ -11,11 +11,11 @@ Need some basic understanding of
 - [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
 - [Transducer](https://jrsinclair.com/articles/2019/magical-mystical-js-transducers/)
 
-I will also link more interesting articles about functional programming and transducers.
+I will also link more interesting articles about functional programming and transducers in the end.
 
 ### Excercise
 
-Now run the following code-which is in nutshell, just filter registered users and sum up the total discount from the given millions of users(array) in 3 different ways 1) -against nodejs versions 8, 9, 10, 12
+Now run the following code-which is in nutshell, just filter registered users and sum up the total discount from the given millions of users(array) in 3 different ways-against nodejs versions 8, 9, 10, 12
 
 ```js
 const { map, filter, compose, transduce } = require('ramda');
