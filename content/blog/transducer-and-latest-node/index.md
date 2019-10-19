@@ -17,7 +17,7 @@ I will also link more interesting articles about functional programming and tran
 
 Now run the following code-which is in nutshell, just filter registered users and sum up the total discount from the given millions of users(array) in 3 different ways 1) -against nodejs versions 8, 9, 10, 12
 
-<pre style="border: 1px solid; padding: 20px">
+```js
 const { map, filter, compose, transduce } = require('ramda');
 
 // utils
@@ -82,7 +82,7 @@ timeIt(
   'Transduce(Efficient and Elegant)',
   getTotalDiscountForRegisteredUsers
 )
-</pre>
+```
 
 I have prepared runkit link too: https://runkit.com/peramanathan/transducer-simplified
 
